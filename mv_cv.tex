@@ -1,0 +1,168 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Wilson Resume/CV
+% XeLaTeX Template
+% Version 1.0 (22/1/2015)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Howard Wilson (https://github.com/watsonbox/cv_template_2004) with
+% extensive modifications by Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[10pt]{article} % Default font size
+
+\input{structure.tex} % Include the file specifying document layout
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\title{Mike Vanbuskirk -- Resume} % Print the main header
+
+%------------------------------------------------
+
+\parbox{0.5\textwidth}{ % First block
+\begin{tabbing} % Enables tabbing
+\hspace{3cm} \= \hspace{4cm} \= \kill % Spacing within the block
+{\bf Located} \> Seattle, WA\\ % Address line 1
+\end{tabbing}}
+\hfill % Horizontal space between the two blocks
+\parbox{0.5\textwidth}{ % Second block
+\begin{tabbing} % Enables tabbing
+\hspace{3cm} \= \hspace{4cm} \= \kill % Spacing within the block
+{\bf Email} \> \href{mailto:mvanbus43@gmail.com}{mvanbus43@gmail.com} \\ % Email address
+\end{tabbing}}
+
+%----------------------------------------------------------------------------------------
+%	IT/COMPUTING SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Core Technical Skills}
+
+\skillgroup{\large Operating Systems}
+{
+\textbf{Linux/Unix} - CentOS, RHEL, Solaris, Debian, XenVM\\
+\textbf{Windows} - Server 2008/2012
+}
+
+%------------------------------------------------
+
+\skillgroup{\large Programming/Scripting}
+{
+\textbf{BASH/Shell} - Automation \& system administration\\
+\textbf{JSON} - Configuration file management\\
+\textbf{Python} - Hardware device configuration \& system administration\\
+\textbf{HTML/CSS} - Content mark-up\\
+\textbf{LaTeX} - Document creation \& typesetting
+}
+
+%------------------------------------------------
+
+\skillgroup{\large Applied}
+{
+\textbf{Networking} - Global-level DNS configuration \& traffic management, load-balancer configuration \& support, routing modification, VPN configuration \& support  \\
+\textbf{Application Support} - Support \& management of highly available applications in cloud, CDN \& e-commerce infrastructures\\
+\textbf{Development Technology} - DVCS(Git), continuous delivery, auto-scaling, environment deployment\\
+\textbf{Project Management} - Agile/SCRUM\\
+\textbf{Debugging/Troubleshooting} - Log analysis, application debugging, file dump analysis, HTTP header/response debugging, hardware failure analysis \\
+\textbf{Service} - Tier-1 event management \& response, configuration change support, ticket \& queue handling, documentation management, PKI \& general authentication support
+}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\tabbedblock{
+\bf{2009-2012} \> BSc Networks Design \& Management - \href{http://www.wgu.edu}{Western Governors University} \\[3pt]
+}
+
+%----------------------------------------------------------------------------------------
+%	EMPLOYMENT HISTORY SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Employment History}
+
+\job
+{Sep 2014 -}{Present}
+{Amazon, Seattle, WA - United States}
+{http://aws.amazon.com}
+{Technical Operations Support Engineer / Support Engineer III}
+{
+\begin{itemize-noindent}
+\item{Tier-1 event management, application \& service support, configuration, monitoring, and automation across one of the largest e-commerce \& cloud platforms in the world.}
+\item{Deployed code in continuous delivery to production monitoring system utilized globally by internal Amazon teams.}
+\item{Helped define 1st-tier engagement policies for event response.}
+\item{Supported \& configured multiple highly-available applications and services.}
+\end{itemize-noindent}
+
+}
+
+
+%------------------------------------------------
+
+\job
+{Sep 2013 -}{Aug 2014}
+{Level 3, Tulsa, OK - United States}
+{http://www.level3.com}
+{CDN/NOC Technician}
+{
+\begin{itemize-noindent}
+\item{Monitor and maintain many thousand node global CDN platform, including highly available storage and streaming applications.}
+\item{Tier-1 event management \& response(including 3rd party vendor engagement), real time alert analysis, triage, and application support.}
+\item{Provided analysis and debugging output to Tier III engineering teams identifying a critical bug in global Java application.}
+\item{Developed scripting to identify nodes approaching critical via historical alarm \& monitoring data analysis.}
+\end{itemize-noindent}
+
+}
+
+%-------------------------------------------------
+
+\exphilights{Additional Experience Hilights}
+{
+\textbf{Synergy Services} - Contract CDN Technician - Tulsa, OK\\
+\textit{Jun 2013 - Sep 2013}\\ 
+Rapid training and successful transition to full-time direct-hire monitoring technician with single responsibility inside the Level 3 CDN.\\
+
+\textbf{Tech Specialties} - CEO/Consultant - Stillwater, OK\\
+\textit{Feb 2010 - Sep 2014}\\ 
+Provided IT consulting and support for small/medium business clients. Full ownership of project design, sale, implementation, and support.\\
+
+\textbf{Petra} - Sales Acquisition Rep - Edmond, OK\\
+\textit{Nov 2009 - Jan 2010}\\ 
+Managed 1600 active and non-active accounts for national electronics wholesaler. Advised clients on marketing and profitable product strategies. Returned multiple accounts to purchasing status.\\
+
+\textbf{OfficeMax} - Business Development Manager - Norman, OK\\
+\textit{February 2009 - October 2009}\\ 
+Managed 300 small/medium business accounts, including acquisition and development of new accounts. Exceeded both new business and current business goals in successive quarters.\\
+
+\textbf{Dell Computers} - Inside Business Sales - Oklahoma City, OK\\
+\textit{September 2006 - December 2008}\\ 
+Inside business sales for one of the largest computer companies in the world. Consistently exceeded quota and progressed internally to relationship account roles.\\
+
+\textbf{Ad Specialties of Stillwater} - Customer Relationship Manager - Stillwater, OK\\
+\textit{August 2005 - August 2006}\\
+Performed multiple duties including IT support, sales, accounts \& billing, copy-writing, graphic design, and marketing. Helped fulfil promotional product orders on multiple national campaigns.\\
+
+\textbf{Convergys} - Customer Service Representative - Moore, OK\\
+\textit{August 2005 - August 2006}\\
+Provided support for billing and technical issues for national broadcast/content provider, including qualifying sales opportunities.\\
+
+}
+
+\end{document}
