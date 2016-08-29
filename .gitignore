@@ -124,3 +124,6 @@ sympy-plots-for-*.tex/
 # WinEdt
 *.bak
 *.sav
+
+# ignore apple folder files
+*.DS_Store
