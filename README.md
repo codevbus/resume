@@ -20,3 +20,6 @@ This document is licensed under [Creative Commons Attribution-NonCommerical-Shar
 
 ### v1.0.1
 * Update to use semver
+
+### v1.1.0
+* Added additional experience and technical skills
