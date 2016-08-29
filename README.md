@@ -16,4 +16,7 @@ This document is licensed under [Creative Commons Attribution-NonCommerical-Shar
 
 ## Change Log
 ### v1.0
-1. First publicly available version
+* First publicly available version
+
+### v1.0.1
+* Update to use semver
