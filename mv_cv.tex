@@ -1,197 +1,60 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Wilson Resume/CV
-% XeLaTeX Template
-% Version 1.0 (22/1/2015)
-%
-% This template has been downloaded from:
-% http://www.LaTeXTemplates.com
-%
-% Original author:
-% Howard Wilson (https://github.com/watsonbox/cv_template_2004) with
-% extensive modifications by Vel (vel@latextemplates.com)
-%
-% License:
-% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%----------------------------------------------------------------------------------------
-%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
-%----------------------------------------------------------------------------------------
-
-\documentclass[10pt]{article} % Default font size
-
-\input{structure.tex} % Include the file specifying document layout
-
-%----------------------------------------------------------------------------------------
+\documentclass[]{mv-resume}
 
 \begin{document}
 
-%----------------------------------------------------------------------------------------
-%	NAME AND CONTACT INFORMATION
-%----------------------------------------------------------------------------------------
+\headername{Mike Vanbuskirk}{Senior Systems Engineer}
 
-\title{Mike Vanbuskirk -- Senior Systems Engineer} % Print the main header
+\begin{minipage}[t]{0.5\textwidth}
+	\begin{about}
+		\section{Location:}\\[3pt]
+		Grand Rapids, MI
+		\section{Contact:}\\[3pt]
+		em: mvanbus43@gmail.com\\[15pt]
+		\hline
+		\\[12pt]
+		\section{Education:}\\[3pt]
+		WGU: 2009-2012\\[3pt]
+		B.Sc - Networks Design and Management\\[15pt]
+		\hline
+		\\[12pt]
+                \section{Web:}\\[3pt]
+		li: linkedin.com/in/mikevanbuskirk\\[2pt]
+		q: quora.com/profile/Mike-Vanbuskirk\\[2pt]
+		gh: github.com/codevbus\\[25pt]
 
-%------------------------------------------------
+	\end{about}
+\end{minipage}
 
-\parbox{0.5\textwidth}{ % First block
-\begin{tabbing} % Enables tabbing
-\hspace{3cm} \= \hspace{4cm} \= \kill % Spacing within the block
-{\bf Located} \> Grand Rapids, MI\\ % Address line 1
-\end{tabbing}}
-\hfill % Horizontal space between the two blocks
-\parbox{0.5\textwidth}{ % Second block
-\begin{tabbing} % Enables tabbing
-\hspace{3cm} \= \hspace{4cm} \= \kill % Spacing within the block
-{\bf Email} \> \href{mailto:mvanbus43@gmail.com}{mvanbus43@gmail.com} \\ % Email address
-\end{tabbing}}
+\hfill
 
-%----------------------------------------------------------------------------------------
-%	IT/COMPUTING SKILLS SECTION
-%----------------------------------------------------------------------------------------
-
-\section{Summary}
-  Senior Systems Engineer with a primary focus on Linux, DevOps, and Cloud engineering. Extensive experience in some of the largest CDN, Cloud, and E-Commerce platforms in the world. Designed, shipped, and supported production application stacks. Bachelor's degree holder who is passionate about technology and automation, and loves learning new things.
-
-\section{Core Technical Skills}
-
-\skillgroup{\large Operating Systems}
-{
-CentOS, RHEL, Solaris, Debian/Ubuntu, XenVM, Amazon Linux, Server 2008/2012
-}
-%------------------------------------------------
-
-\skillgroup{\large Programming \& Markup}
-{
-BASH, Python, Javascript, JSON, YAML, HTML/CSS, LaTeX
-}
-%------------------------------------------------
-
-\skillgroup{\large Cloud Platforms}
-{
-AWS, GCE, OpenStack
-}
-%------------------------------------------------
-
-\skillgroup{\large DevOps}
-{
-Distelli, Git, Chef, Jenkins, Terraform
-}
-%------------------------------------------------
-
-\skillgroup{\large Networking}
-{
-DNS, enterprise-grade loadbalancers(F5 BIG-IP, Citrix Netscaler), software loadbalancers(ELB, Nginx), Route53
-}
-
-\skillgroup{\large Monitoring}
-{
-ELK(Elasticsearch, Logstash, Kibana), CloudWatch, syslog, New Relic
-}
-
-\skillgroup{\large Other Highlights}
-{
-Experience in Tier-1 operational support, break-fix, on-call rotation, and integrated development team support. Familiar with container environments like Docker, Kubernetes, and Vagrant. Support message and queueing systems based on Redis.
-}
-%----------------------------------------------------------------------------------------
-%	EDUCATION SECTION
-%----------------------------------------------------------------------------------------
-
-\section{Education}
-
-\tabbedblock{
-\bf{2009-2012} \> BSc Networks Design \& Management - \href{http://www.wgu.edu}{Western Governors University} \\[3pt]
-}
-
-%----------------------------------------------------------------------------------------
-%	EMPLOYMENT HISTORY SECTION
-%----------------------------------------------------------------------------------------
-
-\section{Employment History}
-
-\job
-{July 2016 -}{Present}
-{The Walt Disney Company, Seattle, WA - United States}
-{http://www.disney.com}
-{Senior Systems Engineer}
-{
-\begin{itemize-noindent}
-\item{System Engineer with a DevOps focus supporting multiple customer facing applications.}
-\item{Deployed production logging system using ElasticSearch, AWS Lambda, and Cloudwatch.}
-\item{Conducted production deployments using Chef automation}
-\item{Provide off-hours oncall, including break/fix of critical production services.}
-\item{Configured and deployed CI/CD pipeline in coordination with development team.}
-\end{itemize-noindent}
-}
-
-\job
-{Mar 2016 -}{June 2016}
-{Amazon, Seattle, WA - United States}
-{http://aws.amazon.com}
-{Technical Operations Support Engineer / Support Engineer IV}
-{
-\begin{itemize-noindent}
-\item{Tier-1 event management, application \& service support, configuration, monitoring, and automation across one of the largest e-commerce \& cloud platforms in the world.}
-\item{Manage continuous deployment across multiple service requests to production monitoring system.}
-\item{Scoped system to store and vend service engagement data in highly available configuration.}
-\item{Developed plan to screen and onboard senior engineering and development staff.}
-\item{Architected high-level, multi-team operational processes.}
-\end{itemize-noindent}
-
-}
-
-\job
-{Jan 2016 -}{June 2016}
-{Amazon, Seattle, WA - United States}
-{http://aws.amazon.com}
-{Technical Operations Team Lead}
-{
-\begin{itemize-noindent}
-\item{Team Lead for Seattle-based Technical Operations Support Team.}
-\item{Integrated as part of management team.}
-\item{Ensure team of 15 engineers is delivering on SLAs and operational goals.}
-\item{AGILE based project management and roadmap planning.}
-\item{Point of escalation for ongoing service/event issues.}
-\item{Ongoing engagement and project management with other service teams within Amazon.}
-\end{itemize-noindent}
-
-}
-	
-\job
-{Sep 2014 -}{Mar 2016}
-{Amazon, Seattle, WA - United States}
-{http://aws.amazon.com}
-{Technical Operations Support Engineer / Support Engineer III}
-{
-\begin{itemize-noindent}
-\item{Tier-1 event management, application \& service support, configuration, monitoring, and automation across one of the largest e-commerce \& cloud platforms in the world.}
-\item{Deployed code in continuous delivery to production monitoring system utilized globally by internal Amazon teams.}
-\item{Helped define 1st-tier engagement policies for event response.}
-\item{Supported \& configured multiple highly-available applications and services.}
-\end{itemize-noindent}
-
-}
-
-
-%------------------------------------------------
-
-\job
-{Sep 2013 -}{Aug 2014}
-{Level 3, Tulsa, OK - United States}
-{http://www.level3.com}
-{CDN/NOC Technician}
-{
-\begin{itemize-noindent}
-\item{Monitor and maintain many thousand node global CDN platform, including highly available storage and streaming applications.}
-\item{Tier-1 event management \& response(including 3rd party vendor engagement), real time alert analysis, triage, and application support.}
-\item{Provided analysis and debugging output to Tier III engineering teams identifying a critical bug in global Java application.}
-\item{Developed scripting to identify nodes approaching critical via historical alarm \& monitoring data analysis.}
-\end{itemize-noindent}
-}
-
-%-------------------------------------------------
-\textbf{Additional experience details provided on request}
-
-
+\begin{minipage}[t]{0.5\textwidth}
+	\begin{summary}
+		\section*{Summary}
+		Senior Systems Engineer with a primary focus on Linux, DevOps, and Cloud engineering. Extensive experience in some of the largest CDN, Cloud, and E-Commerce platforms in the world. Designed, shipped, and supported production application stacks. Bachelor's degree holder who is passionate about technology and automation, and loves learning new things.
+	\end{summary}
+	\begin{skills}
+		\section*{Core Skills}
+		\subsection*{Platform:}
+		Windows and Linux/Unix-based operating systems. Modern cloud computing platforms including AWS, GCE, and OpenStack.
+		\subsection*{Development:}
+		BASH, Python, JavaScript, JSON, Yaml, HTML/CSS, LaTeX. Multi-team collaboration using Git/VCS.
+		\subsection*{Networking:}
+		Tier-1 application DNS and loadbalancing deployments, utilizing Route53, ELB/ALB, Citrix Netscaler, and F5 BigIP.
+		\subsection*{DevOps:}
+		Experience in DevOps lifecycle, including CI/CD, operational support, 12-factor methodolgies, and IaaC(Infrastructure as Code).
+		\subsection*{Other highlights:}
+		Hashicorp suite, including Terraform, Vagrant, Consul, Nomad. Monitoring tools including: DataDog, NewRelic, Solarwinds, ELK, CloudWatch. Containerization and microservice deployments utilizing Docker, ECS, and AWS Lambda.
+		
+	\end{skills}
+	\begin{experience}
+		\hline
+		\section*{Experience}
+		\subsection*{Senior Systems Engineer - The Walt Disney Company}{Seattle, WA | July 2016 - Present}\\[4pt]
+		{System engineer with a DevOps focus supporting multiple customer facing applications.}
+		\subsection*{Technical Operations Support Engineer III/IV - Amazon}{Seattle, WA | September 2014 - June 2016}\\[4pt]
+		{Tier-1 event management, application \& service support, configuration, monitoring, and automation across one of the largest e-commerce \& cloud platforms in the world.}
+		\subsection*{CDN NOC Technician Linux/Unix - Level(3) Communications}{Tulsa, OK | June 2013 - August 2014}\\[4pt]
+		{Monitor and maintain many thousand node global CDN platform, including highly available storage and streaming applications.}
+	\end{experience}
+	\end{minipage}
 \end{document}
