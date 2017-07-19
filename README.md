@@ -6,8 +6,6 @@ LaTeX provides several advantages over standard word-processing platforms, inclu
 
 This document will be a work in progress, and I will update it as needed with relevant experience, projects, and aesthetic modifications.
 
-This is based off the Wilson Resume/CV template from [http://LaTeXTemplates.com](http://latextemplates.com). Original author is [Howard Wilson](https://github.com/watsonbox/cv_template_2004) with extensive modifications by [Vel](vel@latextemplates.com).
-
 ## Instructions
 You can clone this as a standard GitHub repository. If you wish to access/download a PDF copy, please choose the [PDF file listed above](https://github.com/mikevanb/mv-resume/blob/master/mv_cv.pdf) and ask for the "Raw" file.
 
@@ -23,3 +21,6 @@ This document is licensed under [Creative Commons Attribution-NonCommerical-Shar
 
 ### v1.1.0
 * Added additional experience and technical skills
+
+### v2.0.0
+* Major design change. Emphasis on brevity and single page utilization.
