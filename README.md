@@ -24,3 +24,7 @@ This document is licensed under [Creative Commons Attribution-NonCommerical-Shar
 
 ### v2.0.0
 * Major design change. Emphasis on brevity and single page utilization.
+
+### v3.0.0
+* Re-design. Retain single page, with more emphasis on content and a simpler presentation.
+Converting to MIT license.
