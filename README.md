@@ -10,7 +10,7 @@ This document will be a work in progress, and I will update it as needed with re
 You can clone this as a standard GitHub repository. If you wish to access/download a PDF copy, please choose the [PDF file listed above](https://github.com/mikevanb/mv-resume/blob/master/mv_cv.pdf) and ask for the "Raw" file.
 
 ## License
-This document is licensed under [Creative Commons Attribution-NonCommerical-ShareAlike 3.0 Unported](http://creativecommons.org/licenses/by-nc-sa/3.0/).
+This repository is licensed under the MIT license.
 
 ## Change Log
 ### v1.0
