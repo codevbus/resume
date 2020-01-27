@@ -7,7 +7,7 @@ LaTeX provides several advantages over standard word-processing platforms, inclu
 This document will be a work in progress, and I will update it as needed with relevant experience, projects, and aesthetic modifications.
 
 ## Instructions
-You can clone this as a standard GitHub repository. If you wish to access/download a PDF copy, please choose the [PDF file listed above](https://github.com/mikevanb/mv-resume/blob/master/mv_cv.pdf) and ask for the "Raw" file.
+You can clone this as a standard GitHub repository. If you wish to access/download a PDF copy, please choose the [PDF file listed above](https://github.com/codevbus/mv-resume/blob/master/mv_cv.pdf) and ask for the "Raw" file.
 
 ## License
 This repository is licensed under the MIT license.
@@ -28,3 +28,6 @@ This repository is licensed under the MIT license.
 ### v3.0.0
 * Re-design. Retain single page, with more emphasis on content and a simpler presentation.
 Converting to MIT license.
+
+### v4.0.0
+* New re-design that still focuses on brevity and single-page content. I took a lot of inspiration from Adrien Friggeri's [great example](https://www.latextemplates.com/template/friggeri-resume-cv). In this iteration, I made a serious effort to separate content and formatting between the tex and cls files, respectively. This should make future re-factoring and updates easier.
