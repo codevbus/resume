@@ -31,3 +31,6 @@ Converting to MIT license.
 
 ### v4.0.0
 * New re-design that still focuses on brevity and single-page content. I took a lot of inspiration from Adrien Friggeri's [great example](https://www.latextemplates.com/template/friggeri-resume-cv). In this iteration, I made a serious effort to separate content and formatting between the tex and cls files, respectively. This should make future re-factoring and updates easier.
+
+### v4.1.0
+* Added a new experience, as well as smaller font size and bottom margin spacing

@@ -69,8 +69,8 @@ BoldItalicFont={* Bold Italic}
     }
 
 \newcommand{\sideitem}[2]{
-    \textbf{\fontsize{14}{16} \selectfont #1}\\
-    {\fontsize{12}{14} \selectfont #2}\\
+    \textbf{\fontsize{12}{14} \selectfont #1}\\
+    {\fontsize{10}{12} \selectfont #2}\\
     \vspace{0.4cm}
 }
 
@@ -78,11 +78,11 @@ BoldItalicFont={* Bold Italic}
 % Main
 %-----------
 
-\usepackage[textwidth=6in, right=0.75in, left=2.0in, bottom=1in]{geometry}
+\usepackage[textwidth=6in, right=0.75in, left=2.0in, bottom=0.5in]{geometry}
 \RequirePackage{hyphenat}
 
 \newcommand{\content}[1]{
-    {\nohyphens{\fontsize{12}{14} \selectfont #1}}
+    {\nohyphens{\fontsize{10}{12} \selectfont #1}}
 }
 
 \newenvironment{explist}
@@ -93,10 +93,10 @@ BoldItalicFont={* Bold Italic}
 
 \newcommand{\expitem}[4]{
     \vspace{0.1cm}
-    \item[] {\color{darkgray}\fontsize{12}{14} \selectfont #1} | \textbf{\fontsize{12}{14} \selectfont #2}\vspace{0.1cm}\\
+    \item[] {\color{darkgray}\fontsize{10}{12} \selectfont #1} | \textbf{\fontsize{10}{12} \selectfont #2}\vspace{0.1cm}\\
     \textit{#3}
     \begin{itemize}
-        \item[]{\fontsize{12}{14} \selectfont #4}
+        \item[]{\fontsize{10}{12} \selectfont #4}
     \end{itemize}
     \vspace{0.2cm}
 }
@@ -105,5 +105,5 @@ BoldItalicFont={* Bold Italic}
     \@startsection {section}{1}{\z@}
     {0.1cm}
     {0.1cm}
-    {\normalfont\fontsize{16}{18}\bfseries}
+    {\normalfont\fontsize{14}{16}\bfseries}
 }
