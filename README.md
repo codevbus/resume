@@ -34,3 +34,6 @@ Converting to MIT license.
 
 ### v4.1.0
 * Added a new experience, as well as smaller font size and bottom margin spacing
+
+### v4.2.0
+* Added some summary detail, added color and switched to Helvetica for readability/standardization.
