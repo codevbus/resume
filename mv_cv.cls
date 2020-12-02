@@ -14,7 +14,8 @@
 \RequirePackage{xcolor}
 
 \definecolor{darkgray}{HTML}{606060}
-\definecolor{gray}{HTML}{696969}
+\definecolor{gray}{HTML}{bfbfbf}
+\definecolor{blue}{HTML}{3366ff}
 
 %-----------
 % Fonts
@@ -23,12 +24,7 @@
 \RequirePackage[quiet]{fontspec}
 
 \defaultfontfeatures{Mapping=text-text}
-\setmainfont
-[Mapping=tex-text, Color=black,
-BoldFont={* Bold},
-ItalicFont={* Italic},
-BoldItalicFont={* Bold Italic}
-]{Optima}
+\setmainfont{Helvetica}
  
 %-----------
 % Header
@@ -39,12 +35,12 @@ BoldItalicFont={* Bold Italic}
 
 \newcommand{\header}[2]{
     \begin{tikzpicture}[remember picture, overlay]
-        \node [rectangle, fill=darkgray, anchor=north, minimum width=\paperwidth,
+        \node [rectangle, fill=gray, anchor=north, minimum width=\paperwidth,
             minimum height=3cm] (box) at (current page.north){};
         \node [anchor=east, align=left, shift={(0mm, 3mm)}]
-            (name) at (box){\color{white}\fontsize{40}{48} \selectfont #1};
-        \node [anchor=north, align=left, shift={(14.2mm, -6.5mm)}]
-            (desc) at (name){\color{white}\fontsize{12}{16} \selectfont #2};
+            (name) at (box){\color{blue}\fontsize{40}{48} \selectfont #1};
+        \node [anchor=north, align=left, shift={(15.3mm, -7.5mm)}]
+            (desc) at (name){\color{darkgray}\fontsize{12}{16} \selectfont #2};
     \end{tikzpicture}
     \vspace{-0.5cm}
 }
@@ -69,7 +65,7 @@ BoldItalicFont={* Bold Italic}
     }
 
 \newcommand{\sideitem}[2]{
-    \textbf{\fontsize{12}{14} \selectfont #1}\\
+    \textbf{\color{blue}\fontsize{12}{14} \selectfont #1}\\
     {\fontsize{10}{12} \selectfont #2}\\
     \vspace{0.4cm}
 }
@@ -105,5 +101,5 @@ BoldItalicFont={* Bold Italic}
     \@startsection {section}{1}{\z@}
     {0.1cm}
     {0.1cm}
-    {\normalfont\fontsize{14}{16}\bfseries}
+    {\color{blue}\normalfont\fontsize{14}{16}\bfseries}
 }
