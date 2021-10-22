@@ -37,3 +37,6 @@ Converting to MIT license.
 
 ### v4.2.0
 * Added some summary detail, added color and switched to Helvetica for readability/standardization.
+
+### v5.0.0
+* Redesign that emphasizes brevity and readability. Added recent job experience.
