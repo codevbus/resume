@@ -54,23 +54,33 @@
 \RequirePackage{hyphenat}
 
 \newcommand{\content}[1]{
-    {\nohyphens{\fontsize{8}{10} \selectfont #1}}
+    \vspace{-0.2cm}
+    \begin{tikzpicture}[remember picture, overlay]
+      \node [rectangle, fill=gray]{};
+    \end{tikzpicture}
+    {\color{darkgray}\noindent\rule{7cm}{1.0pt}}\\\\
+    {\nohyphens{\fontsize{8}{8} \selectfont #1}}
+    \vspace{0.2cm}
 }
 
 \newenvironment{explist}
     {\vspace{-0.2cm}
+    \begin{tikzpicture}[remember picture, overlay]
+      \node [rectangle, fill=gray]{};
+    \end{tikzpicture}
+    {\color{darkgray}\noindent\rule{7cm}{1.0pt}}\\
+       {\vspace{-0.3cm}}
      \begin{itemize}
     }
     {\end{itemize}}
 
 \newcommand{\expitem}[4]{
     \vspace{0.1cm}
-    \item[] {\color{darkgray}\fontsize{8}{10} \selectfont #1} | \textbf{\fontsize{8}{10} \selectfont #2}\vspace{0.1cm}\\
+    \item[] {\color{darkgray}\fontsize{8}{10} \selectfont #1} | \textbf{\fontsize{8}{10} \selectfont #2}\vspace{0.1cm}
     \textit{\fontsize{8}{10} \selectfont #3}
     \begin{itemize}
-        \item[]{\fontsize{8}{10} \selectfont #4}
+      \item[]{\fontsize{7}{8} \selectfont #4}
     \end{itemize}
-    \vspace{0.2cm}
 }
 
 \renewcommand*{\section}{
