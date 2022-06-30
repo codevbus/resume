@@ -40,3 +40,6 @@ Converting to MIT license.
 
 ### v5.0.0
 * Redesign that emphasizes brevity and readability. Added recent job experience.
+
+### v6.0.0
+* Layout redesign and updated content.
