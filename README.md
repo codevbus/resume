@@ -43,3 +43,6 @@ Converting to MIT license.
 
 ### v6.0.0
 * Layout redesign and updated content.
+
+### v6.1.0
+* Removed redundant LinkedIn profile warning, broadened title of bottom section
