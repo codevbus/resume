@@ -1,8 +1,6 @@
 # Mike Vanbuskirk's Resume
 
-Inspired by great examples and templates from places like [http://LaTeXTemplates.com](http://latextemplates.com) and [https://github.com/deedydas/Deedy-Resume](https://github.com/deedydas/Deedy-Resume), I decided to take the plunge and convert my resume from Microsoft Word format to LaTeX.
-
-LaTeX provides several advantages over standard word-processing platforms, including standardized and widely accepted formatting, robust templates, and easy integration with Version Control Systems.
+After a long run with LaTeX, I've decided to move to [Typst](https://typst.app/). Typst similar to LaTeX, but more modern and user-friendly. 
 
 This document will be a work in progress, and I will update it as needed with relevant experience, projects, and aesthetic modifications.
 
@@ -46,3 +44,6 @@ Converting to MIT license.
 
 ### v6.1.0
 * Removed redundant LinkedIn profile warning, broadened title of bottom section
+
+### v7.0.0
+* Migrated to Typst.
