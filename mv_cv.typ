@@ -13,7 +13,7 @@
     == Experience
 
     === Senior DevOps Engineer \
-    _Redzone Software_\
+    _RedZone Software_\
     #term[Apr 2024 --- Current][Remote | Grand Rapids, MI]
     - Deploy and manage microservice application on ECS.
     - GitOps with Pulumi and GitHub Actions.
@@ -82,10 +82,10 @@
     _Western Governors University_\
     #term[Sep 2009 --- May 2012][Salt Lake City, UT]
 
-    B.Sc. Networks Design & Management \
+    BSc Networks Design & Management \
 
     == Skills
-    AWS, Google Cloud, Terraform, Grafana, Golang, GitHub Actions, Kubernetes GitOps, Redshift, SOC2 compliance, Serverless, Salesforce Einstein, Chef, Datadog, DynamoDB, Linux, Zapier, Integromat, Python, Bash, NodeJS 
+    AWS, Google Cloud, Terraform, Grafana, Golang, GitHub Actions, Kubernetes GitOps, Redshift, SOC2 compliance, serverless, Salesforce Einstein, Chef, Datadog, DynamoDB, Linux, Zapier, Integromat, Python, Bash, NodeJS 
 
     == Languages
 
