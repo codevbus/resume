@@ -14,7 +14,7 @@
 
     === Senior DevOps Engineer \
     _RedZone Software_\
-    #term[Apr 2024 --- Current][Remote | Grand Rapids, MI]
+    #term[Apr 2024 --- Oct 2024][Remote | Grand Rapids, MI]
     - Deploy and manage microservice application on ECS.
     - GitOps with Pulumi and GitHub Actions.
 
