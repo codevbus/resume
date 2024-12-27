@@ -8,25 +8,23 @@
     (name: "github", link: "https://github.com/codevbus", display: "codevbus"),
     (name: "linkedin", link: "https://www.linkedin.com/in/mikevanbuskirk/", display: "Mike Vanbuskirk"),
   ),
-  tagline: [DevOps Engineer],
+  tagline: [Senior DevOps Engineer with 9+ years scaling cloud infrastructure and building automation.],
   [
     == Experience
 
     === Senior DevOps Engineer \
     _RedZone Software_\
     #term[Apr 2024 --- Oct 2024][Remote | Grand Rapids, MI]
-    - Deploy and manage microservice application on ECS.
-    - GitOps with Pulumi and GitHub Actions.
+    - Deployed and managed microservice application on ECS.
+    - Managed and configured GitOps workflows with Pulumi and GitHub Actions.
 
     === Senior DevOps Engineer \
     _Truffle Security_\
     #term[Nov 2022 --- Feb 2024][Remote | Grand Rapids, MI]
 
     - Deployed and configured production alerting and visualizations in Grafana.
-    - Configured and deployed production workloads on Kubernetes and GKE
-    - Performed backend feature work in Golang.
-    - Automated Google Cloud deployments with Terraform and GitHub Actions.
-    - Engineered a 300% improvement in pipeline run times.
+    - Configured and deployed production workloads in Google Cloud with Terraform, GitHub Actions, and GKE.
+    - Engineered a 300% improvement in CI/CD pipeline run times.
 
     === Senior DevOps Engineer \
     _CoinList_\
@@ -48,6 +46,7 @@
 
     - Developed expert-level, marketing-focused technical content on DevOps, DevSecOps, Cloud, and Software Engineering topics.
     - Implemented process automation workflows using Zapier and Integromat.
+    - Havwe written over 70 highly technical blog articles, white-papers, and other SEO-focused content for major software and technology brands.
     
     === Lead DevOps Engineer \
     _Salesforce_\
