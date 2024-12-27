@@ -16,7 +16,7 @@
     _RedZone Software_\
     #term[Apr 2024 --- Oct 2024][Remote | Grand Rapids, MI]
     - Deployed and managed microservice application on ECS.
-    - Managed and configured GitOps workflows with Pulumi and GitHub Actions.
+    - Implemented GitOps workflows with Pulumi and GitHub Actions.
 
     === Senior DevOps Engineer \
     _Truffle Security_\
@@ -46,7 +46,7 @@
 
     - Developed expert-level, marketing-focused technical content on DevOps, DevSecOps, Cloud, and Software Engineering topics.
     - Implemented process automation workflows using Zapier and Integromat.
-    - Havwe written over 70 highly technical blog articles, white-papers, and other SEO-focused content for major software and technology brands.
+    - Have written over 70 highly technical blog articles, white-papers, and other SEO-focused content for major software and technology brands.
     
     === Lead DevOps Engineer \
     _Salesforce_\
